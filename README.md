@@ -4,7 +4,7 @@
 [![maven central](https://img.shields.io/maven-central/v/com.ericsson.bss.cassandra.ecchronos/ecchronos-binary.svg?label=maven%20central&versionPrefix=5.0)](https://central.sonatype.com/artifact/com.ericsson.bss.cassandra.ecchronos/ecchronos-binary/versions)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Ericsson/ecchronos/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Ericsson/ecchronos)
 
-ecChronos est un framework de planification décentralisé principalement axé sur l'exécution de réparations automatiques dans Apache Cassandra.
+ecChronos : Framework de planification décentralisé principalement axé sur l'exécution de réparations automatiques dans Apache Cassandra.
 
 L'objectif d'ecChronos est de fournir un planificateur simple mais efficace qui aide à maintenir un cluster Cassandra. 
 
