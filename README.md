@@ -6,18 +6,24 @@
 
 ecChronos est un framework de planification décentralisé principalement axé sur l'exécution de réparations automatiques dans Apache Cassandra.
 
-L'objectif d'ecChronos est de fournir un planificateur simple mais efficace qui aide à maintenir un cluster Cassandra. Il est principalement utilisé pour exécuter des réparations, mais peut également être étendu pour exécuter toutes sortes de travaux de maintenance.
+L'objectif d'ecChronos est de fournir un planificateur simple mais efficace qui aide à maintenir un cluster Cassandra. 
 
-* Automatisez le processus de maintenance de Cassandra.
-* Divisez un travail de réparation de table en plusieurs réparations de sous-plage plus petites
-* Exposez des statistiques sur la façon dont la réparation suit le rythme du brassage des données
-* Flexible grâce à de nombreux points de plug-in différents pour personnaliser votre cas d'utilisation spécifique
+Il est principalement utilisé pour exécuter des réparations, mais peut également être étendu pour exécuter toutes sortes de travaux de maintenance :
 
-ecChronos est une application d'assistance qui s'exécute à côté de chaque instance d'Apache Cassandra. Il gère les opérations de maintenance pour le nœud local.
+* Automatiser le processus de maintenance de Cassandra.
+* Diviser un travail de réparation de table en plusieurs réparations de sous-plage plus petites
+* Exposer des statistiques sur la façon dont la réparation suit le rythme du brassage des données
+* Être flexible grâce à de nombreux points de plug-in différents pour personnaliser votre cas d'utilisation spécifique
+
+ecChronos est une application d'assistance qui s'exécute à côté de chaque instance d'Apache Cassandra. 
+
+Il gère les opérations de maintenance pour le nœud local.
+
 Les tâches de réparation garantissent que chaque nœud exécute la réparation une fois par intervalle.
+
 L'intervalle est configurable mais la valeur par défaut est de sept jours.
 
-Vous trouverez plus de détails sur l'infrastructure sous-jacente dans [ARCHITECTURE.md](docs/ARCHITECTURE.md).
+Plus de détails sur l'infrastructure sous-jacente dans [ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 Plus d'informations sur l'interface REST d'ecChronos sont décrites dans [REST.md](docs/REST.md).
 
